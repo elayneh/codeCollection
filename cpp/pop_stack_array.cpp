@@ -8,13 +8,13 @@
 #include <iostream>
 using namespace std;
 
-int pop(int stack[], int temp)
+int pop(int stack[], int temp, int top)
 {
-    int top = 0;
-    if (top == -1){
+    if (top <= -1){
         cout<<"stack underflow\n";
         return 0;
-    }else{
+    }
+    else{
         temp = stack[top];
         top = top - 1;
     }
@@ -22,9 +22,9 @@ int pop(int stack[], int temp)
 }
 
 int main(){
-    int size, array[size];
+    int top, array[]={};
     int container;
-    cout<<pop(array, container)<<" is poped successfully\n";
+    cout<<pop(array, container, top)<<" is poped successfully\n";
 
     return 0;
 }
