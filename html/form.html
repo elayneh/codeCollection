@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>web forming.com</title>
+  </head>
+  <body>
+    <form
+      id="registration"
+      action="table.htm"
+      method="post"
+      target="_blank"
+      autocomplete="on"
+    >
+      <h3>fieldset element</h3>
+      <fieldset>
+        <legend>Personalia:</legend>
+        <label for="id">author:</label>
+        <input
+          name="belayneh"
+          id="id"
+          type="text"
+          disabled
+          value="Belayneh Getachew"
+        /><br /><br />
+        <label for="fname">first name:</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="first name"
+        /><br /><br />
+        <label for="lname">last name:</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="last name"
+        /><br /><br />
+        <label for="gender">Gender:</label>
+        <fieldset class="Gender">
+          <label for="mal">male</label>
+          <input name="male" id="mal" value="male" type="radio" />
+          <label for="fem">female</label>
+          <input
+            name="female"
+            id="fem"
+            value="female"
+            type="radio"
+          /><br /><br />
+        </fieldset>
+        <label for="email">e-mail</label>
+        <input type="email" id="email" name="email" /><br /><br />
+        <label for="pswd">password</label>
+        <input type="password" id="pswd" minlength="8" required /><br /><br />
+        <label for="birthday">birthday</label>
+        <input type="date" id="date" name="bdate" /><br /><br />
+        <label for="tel">phone:</label>
+        <input name="phone" id="tel" type="tel" /><br /><br />
+        <label for="search">search</label>
+        <input name="search" id="search" type="search" /><br /><br />
+        <br /><br />
+        select your skill(s)<br />
+        <select name="skill" id="skill" multiple>
+          <option value="HTML" selected>HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JS">JS</option>
+          <option value="c++">c++</option>
+          <option value="java">java</option></select
+        ><br /><br />
+        <label for="c">what is your favorite course?</label>
+        <input type="text" id="c" name="course" list="courses" />
+        <datalist id="courses">
+          <option value="chem.eng"></option>
+          <option value="software.eng"></option>
+          <option value="mech.eng"></option>
+          <option value="elec.eng"></option>
+          <option value="electro.eng"></option></datalist
+        ><br /><br />
+        <br /><br />
+        <input type="date" name="practiceDate" id="pdate" />
+        <br /><br />
+        <label for="spin-id"> How many times do you call me?</label>
+        <input
+          name="spin"
+          id="spin-id"
+          type="number"
+          step="1"
+          min="0"
+          max="10"
+        />
+        <br /><br />
+        <div class="range">
+          <label for="rangebox"
+            >Rate the over all service<br />(0=poor, 5=middium and
+            10=greater)</label
+          >
+          0
+          <input
+            name="rangebox"
+            id="rangebox"
+            step="1"
+            min="0"
+            max="10"
+            type="range"
+            value="5"
+          />
+          10
+        </div>
+        <br /><br />
+        <button type="text">custum button</button>
+        <br /><br />
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" /><br /><br />
+        <br /><br /><br /><br />
+        <input name="name" type="radio">
+        <label for="name">Belayneh</label>
+        <input name="name" type="radio">
+        <label for="name">Teshome</label>
+      </fieldset>
+    </form>
+    <blockquote cite="belayneh">this is the quated text
+      <cite>belayneh</cite>
+    </blockquote>
+  <q>rhis is also the word</q>
+  <bdi>belayneh</bdi>
+  &amp;
+  &AMP;
+  &copy;
+  &trade;
+  &reg;
+  <bdo dir="rtl">belayneh</bdo>
+  </body>
+</html>

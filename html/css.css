@@ -1,0 +1,46 @@
+ul > li{
+    font: 13px;
+    font-style: italic;
+    font: Arial, Helvetica, sans-serif;
+    font: bold;
+    font: small-caps;
+    color: red;
+    font-size: 25px;
+
+}
+/* body{ */
+    background-image: url(images.png);
+    background-repeat: repeat;
+    /* background-color: rgb(23, 255, 255); */
+    background-attachment: fixed;
+    background-size: 30px;
+}
+h1{
+    text-transform: capitalize;
+    text-decoration: underline;
+    color:red;
+
+}
+h2{
+    /* text-decoration: overline; */
+    text-transform: uppercase;
+    /* text-decoration: line-through; */
+    text-align: right;
+    color: rosybrown;
+    letter-spacing: 4px;
+    color:red;
+    text-decoration: blink;
+    text-shadow: 4px 4px 8px blue;
+}
+.p1{
+    text-align: 1cm;
+    text-indent: 20px;
+    text-transform:normal;
+    color: red;
+}
+#p1{
+    font-size: 18px;
+    color:maroon;
+    font-style: italic;
+    font-variant: small-caps;
+}
