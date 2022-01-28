@@ -210,6 +210,28 @@ void singl(){
 
 void doubl(){
 
+    choose:cout<<"\t\tmenu\n\t\t----\n";
+    cout<<" select what u to do on the DDL: \n";
+    cout<<"1. insert\n2. delete\n3. display\n4. exit\n\n";
+    char choice;
+    cin>>choice;
+    switch(choice){
+        case '1':
+        dinsert();
+        break;
+        case '2':
+        ddel();
+        break;
+        case '3':
+        display();
+        break;
+        case '4':
+        exit(0);
+        break;
+        default:
+        cout<<"invalid input.\n";
+    }
+
 }
 void circular(){
 
